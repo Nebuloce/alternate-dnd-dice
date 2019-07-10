@@ -12,14 +12,9 @@ public class Dice {
 		int quit = 0;
 		while(quit == 0){
 		System.out.println("\nWhat die size do you want to roll?");
-		System.out.print("4");
-		System.out.print("  | 6");
-		System.out.println("  | 8");
-		System.out.print("10");
-		System.out.print(" | 12");
-		System.out.println(" | 20");
+		System.out.println("4  |  6  |  8");
+		System.out.println("8  |  12 |  20");
 		System.out.println("100");
-		System.out.println("0 - Quit");
 		
 		int choice = input.nextInt();
 		int times = 0;	
