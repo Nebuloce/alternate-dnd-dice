@@ -100,7 +100,7 @@ public class Dice {
 				System.out.println("Good Bye");
 				break;
 		
-		default: System.out.println("Not a valid choice. Please choose between 0 and 7");
+		default: System.out.println("Not a valid choice.");
 				break;
 		}
 	}
